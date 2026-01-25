@@ -1,0 +1,97 @@
+{
+  "users": [],
+  "bookings": [
+    {
+      "id": "bk_1769363017386",
+      "created_at": "2026-01-25T17:43:37.386Z",
+      "tracking_code": "LXD-Y1U450CY",
+      "status": "confirmed",
+      "gps": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "car_name": "Mercedes S-Class",
+      "car_category": "Luxury Sedan",
+      "car_image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&auto=format&fit=crop&q=80",
+      "pickup_location": "City Center Office",
+      "dropoff_location": "Harbor Port",
+      "pickup_date": "2026-01-25T20:00:00.000Z",
+      "dropoff_date": "2026-01-28T20:00:00.000Z",
+      "daily_rate": 299,
+      "total_price": 897,
+      "customer_name": "John Doe",
+      "customer_email": "john@exacmpe.com",
+      "customer_phone": "+12342343",
+      "gps_enabled": true,
+      "insurance_type": "basic"
+    },
+    {
+      "id": "bk_1769363051788",
+      "created_at": "2026-01-25T17:44:11.788Z",
+      "tracking_code": "LXD-X9BT1QP7",
+      "status": "confirmed",
+      "gps": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "car_name": "Porsche 911",
+      "car_category": "Sports Car",
+      "car_image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=600&auto=format&fit=crop&q=80",
+      "pickup_location": "City Center Office",
+      "dropoff_location": "Harbor Port",
+      "pickup_date": "2026-01-25T20:00:00.000Z",
+      "dropoff_date": "2026-01-27T20:00:00.000Z",
+      "daily_rate": 499,
+      "total_price": 998,
+      "customer_name": "John Doe",
+      "customer_email": "cavid@example.com",
+      "customer_phone": "+1234234234",
+      "gps_enabled": true,
+      "insurance_type": "full"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "Mercedes-Benz S-Class",
+      "category": "Luxury Sedan",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=60",
+      "price_per_day": 350,
+      "features": [
+        "Chauffeur Service",
+        "Massage Seats",
+        "Burmester 3D Sound",
+        "Rear Entertainment"
+      ],
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Rolls-Royce Ghost",
+      "category": "Ultra Luxury",
+      "image": "https://images.unsplash.com/photo-1631295868223-63265840d00d?w=800&auto=format&fit=crop&q=60",
+      "price_per_day": 1200,
+      "features": [
+        "Starlight Headliner",
+        "Champagne Fridge",
+        "Lambswool Floormats",
+        "Privacy Suite"
+      ],
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "Range Rover Autobiography",
+      "category": "Luxury SUV",
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&auto=format&fit=crop&q=60",
+      "price_per_day": 450,
+      "features": [
+        "Executive Class Seating",
+        "Meridian Signature Sound",
+        "Panoramic Roof",
+        "Hot Stone Massage"
+      ],
+      "available": true
+    }
+  ]
+}
